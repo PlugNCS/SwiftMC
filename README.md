@@ -21,6 +21,9 @@ git clone https://github.com/GroupeMINASTE/SwiftMC.git
 cd SwiftMC
 swift run -c release
 ```
+WARNING
+You must use a MacOS system with Xcode installed to compile this !
+
 
 ## Create a custom server
 
