@@ -30,7 +30,7 @@ public class BStatsSubmitData {
     }
     
     public func fetch(in eventLoopGroup: EventLoopGroup) {
-        let client = HTTPClient(eventLoopGroupProvider: .shared(eventLoopGroup))
+        let client = HTTPClient(eventLoopGroupProvider: .createNew)
         
         var urlComponents = URLComponents()
         urlComponents.scheme = "https"
